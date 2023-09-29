@@ -2,7 +2,7 @@
     <div>
       <!-- -->
       <header>
-        <nav class="navbar bg-primary">
+        <nav class="navbar">
                 <div class="container-fluid">
                     <!-- Este botón se encarga de abrir el menú -->
                     <button type="button" class="btn btn-light" aria-label="Mostrar/Ocultar menú" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu">
@@ -10,7 +10,7 @@
                     </button>
 
                     <!-- -->
-                    <a class="navbar-brand text-light" href="#">Navbar</a>
+                    <a class="navbar-brand text-light" href="#"><img src="../assets/logo-blue.png" alt=""></a>
                 </div>
             </nav>
       </header>
@@ -44,8 +44,14 @@
 </script>
 
 <style>
+nav{
+  background-color: rgb(243, 243, 243 );
+}
+.nav-link{
+  border-radius: 10px;
+}
 .nav-link:hover{
-    background-color: rgb(0, 81, 255);
-    color: white;
+  border-bottom: 1px groove;
+  color: white;
 }
 </style>
